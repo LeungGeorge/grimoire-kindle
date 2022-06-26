@@ -50,7 +50,6 @@ rss精选
 [Kindle 相关工具](https://bookfere.com/tools#ClippingsFere)
 
 ## 目录
-
 `
 
 func main() {
@@ -84,6 +83,5 @@ func main() {
 		return nil
 	})
 
-	// fmt.Println(README)
 	os.WriteFile("README.md", []byte(README), os.ModePerm)
 }
