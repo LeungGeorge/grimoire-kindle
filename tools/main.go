@@ -54,9 +54,11 @@ rss精选
 `
 
 func main() {
+	// 在根目录运行（当前目录上跳一层）
 	baseDir, _ := os.Getwd()
-	arrDir := strings.Split(baseDir, "/")
-	newBaseDir := strings.Join(arrDir[0:len(arrDir)-1], "/")
+	// arrDir := strings.Split(baseDir, "/")
+	// newBaseDir := strings.Join(arrDir[0:len(arrDir)-1], "/")
+	newBaseDir := baseDir
 	filepath.Walk(newBaseDir, func(path string, info os.FileInfo, err error) error {
 		if info.IsDir() {
 			return nil
@@ -80,6 +82,6 @@ func main() {
 		return nil
 	})
 
-	fmt.Println(README)
-	os.WriteFile("../README.md", []byte(README), os.ModePerm)
+	// fmt.Println(README)
+	os.WriteFile("README.md", []byte(README), os.ModePerm)
 }
