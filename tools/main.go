@@ -55,19 +55,20 @@ rss精选
 
 func main() {
 	// 在根目录运行（当前目录上跳一层）
-	baseDir, _ := os.Getwd()
-	// arrDir := strings.Split(baseDir, "/")
-	// newBaseDir := strings.Join(arrDir[0:len(arrDir)-1], "/")
-	newBaseDir := baseDir
-	filepath.Walk(newBaseDir, func(path string, info os.FileInfo, err error) error {
+	dir, err := os.Getwd()
+	if err != nil {
+		panic(err)
+	}
+
+	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if info.IsDir() {
 			return nil
 		}
-		note := strings.TrimPrefix(path, baseDir)
+		note := strings.TrimPrefix(path, dir)
 		if note == "" {
 			return nil
 		}
-		notePath := strings.TrimPrefix(path, newBaseDir)
+		notePath := strings.TrimPrefix(path, dir)
 		if strings.HasPrefix(notePath, "/.git/") ||
 			strings.HasPrefix(notePath, "/tools/") ||
 			strings.HasPrefix(notePath, "/.gitignore") ||
