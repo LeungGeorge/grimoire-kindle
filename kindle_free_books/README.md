@@ -1,4 +1,5 @@
-# kindle/kindle_free_books
+# kindle_free_books
+
 
 <!-- summary -->
 ## 目录
@@ -16,3 +17,5 @@
 
 <!-- SUMMARY_AUTO @ https://github.com/LeungGeorge -->
 <!-- summary -->
+
+> 转自：[https://github.com/KingEP/kindle_free_books](https://github.com/KingEP/kindle_free_books)
