@@ -39,6 +39,8 @@ rss精选
 [Kindle 相关工具](https://bookfere.com/tools#ClippingsFere)
 
 ## 目录
+- [/.vscode/settings.json](%2F.vscode%2Fsettings.json)
+- [/kindle_book/from.md](%2Fkindle_book%2Ffrom.md)
 - [/kindle_free_books/二十四史/PDF/01史记.pdf](%2Fkindle_free_books%2F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2%2FPDF%2F01%E5%8F%B2%E8%AE%B0.pdf)
 - [/kindle_free_books/二十四史/PDF/02汉书.pdf](%2Fkindle_free_books%2F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2%2FPDF%2F02%E6%B1%89%E4%B9%A6.pdf)
 - [/kindle_free_books/二十四史/PDF/03后汉书.pdf](%2Fkindle_free_books%2F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2%2FPDF%2F03%E5%90%8E%E6%B1%89%E4%B9%A6.pdf)
