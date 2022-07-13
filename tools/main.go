@@ -74,6 +74,7 @@ func main() {
 			strings.HasPrefix(notePath, "/LICENSE") ||
 			strings.HasPrefix(notePath, "/README.md") ||
 			strings.HasSuffix(notePath, "settings.json") ||
+			strings.HasSuffix(notePath, ".png") ||
 			strings.HasSuffix(notePath, "/makefile") ||
 			strings.HasSuffix(notePath, ".DS_Store") {
 			return nil
