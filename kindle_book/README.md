@@ -504,17 +504,17 @@
 
 **打开电子书**
 
-![image-20210609224709472](https://oss-blog.cdn.hujingnb.com/img/20210609224709.png)
+<img src="https://raw.githubusercontent.com/LeungGeorge/assets/master/images/2022/20220713103124.png" alt="20220713103124" loading="lazy">
 
 推动 `epub` 格式文件后, 稍作等待. 
 
 **导出电子书**
 
-![image-20210609225044255](https://oss-blog.cdn.hujingnb.com/img/20210609225044.png)
+<img src="https://raw.githubusercontent.com/LeungGeorge/assets/master/images/2022/20220713103218.png" alt="20220713103218" loading="lazy">
 
 转换成功后即可导出. 
 
-![image-20210609225149434](https://oss-blog.cdn.hujingnb.com/img/20210609225149.png)
+<img src="https://raw.githubusercontent.com/LeungGeorge/assets/master/images/2022/20220713103239.png" alt="20220713103239" loading="lazy">
 
 如图是它支持导出的文件格式. 
 

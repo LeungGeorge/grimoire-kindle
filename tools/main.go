@@ -72,7 +72,7 @@ func main() {
 			strings.HasPrefix(notePath, "/tools/") ||
 			strings.HasPrefix(notePath, "/.gitignore") ||
 			strings.HasPrefix(notePath, "/LICENSE") ||
-			strings.HasSuffix(notePath, "README.md") ||
+			strings.HasPrefix(notePath, "/README.md") ||
 			strings.HasSuffix(notePath, "settings.json") ||
 			strings.HasSuffix(notePath, "/makefile") ||
 			strings.HasSuffix(notePath, ".DS_Store") {
